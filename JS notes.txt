@@ -1,0 +1,13 @@
+javascript principles => 
+
+Goes through line by line called Thread of Execution
+.exceute fn by fn's name & ()
+.execution context has Thread of Execution and Memory
+
+Call stack
+.js keeps track of fn running i.e. where is T.O.E
+.run fn,js add to call stack and removes it once finish running the fn
+
+Higher Order function
+.The fn we pass in is a callback fn(mapStateToProps has parameter) as a argument. 
+.The outer fn that takes in the function (our callback) is a higher-order function(connect).

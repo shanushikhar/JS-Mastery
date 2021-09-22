@@ -11,3 +11,10 @@ Call stack
 Higher Order function
 .The fn we pass in is a callback fn(mapStateToProps has parameter) as a argument. 
 .The outer fn that takes in the function (our callback) is a higher-order function(connect).
+
+.Methods are functions that they can use on themselves
+const array = [1,2,3]
+array.push(10)
+.the arrays i.e [1,2,3] get are stored in an object internally so that
+every array has access towhen we refer to that array by 'dot' and Methods like push,map etc, 
+.the link to this object full of shared methods is on the __proto__ property.

@@ -13,4 +13,3 @@ const HocMethod = (input, multiply) => {
 //const output = HocMethod([1, 2, 3], multiply) // passing array as argument
 const output = HocMethod([1, 2, 3], inputVal => inputVal * 2 ) // annonymous function
 console.log(output)
-

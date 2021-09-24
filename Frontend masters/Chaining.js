@@ -80,5 +80,19 @@ const mulby2 = (inp) => {
 }
 
 const values = octify(mulby2)
+//console.log(values)
 console.log(values(10))
 console.log(values(20))
+
+// Currying
+const multiplyy3 = (a, b) => a * b
+
+const prefillFn = (fn, preval) => {
+    const input = (liveInput) => {
+        return fn(liveInput, preval)
+    }
+    return input
+}
+
+const mul3 = prefillFn(multiplyy3, 10)
+console.log(mul3(3))

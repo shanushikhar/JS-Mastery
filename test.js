@@ -68,3 +68,32 @@ function mergeSortedArray(arr1, arr2) {
 }
 
 mergeSortedArray([1, 3, 7], [4, 2, 6])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+console.log(1)
+ setTimeout((() => {
+            console.log(2)
+        })(), 1000);
+ console.log(3)
+ setTimeout((() => {
+            console.log(4)
+        })(), 1000);
+console.log(5)
+ setTimeout((() => {
+            console.log(6)
+        })(), 10000);
+
+
